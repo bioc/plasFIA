@@ -1,0 +1,18 @@
+Package: plasFIA
+Version: 0.99.3
+Date: 2016-08-30
+Title: FIA-HRMS plasma dataset
+Author: Alexis Delabriere, Etienne Thevenot, Ulli Hohenester and
+        Christophe Junot.
+Maintainer: Alexis Delabriere <alexis.delabriere@cea.fr>
+Depends: proFIA
+ZipData: no
+Description: Positive Ionization FIA-HRMS data of human plasma spiked
+        with a pool of 40 compounds acquired in FIA-HRMS mode on an
+        orbitrap fusion. plasFIA also include the result of the
+        processing by the proFIA package with adapted parameters for an
+        Orbitrap Fusion.
+biocViews: ExperimentData, MassSpectrometryData
+License: LGPL
+NeedsCompilation: no
+RoxygenNote: 5.0.1
