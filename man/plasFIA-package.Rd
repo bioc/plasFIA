@@ -2,8 +2,8 @@
 % Please edit documentation in R/plasFIA-package.R
 \docType{package}
 \name{plasFIA-package}
-\alias{plasFIA}
 \alias{plasFIA-package}
+\alias{plasFIA}
 \title{FIA-HRMS spiked plasma dataset.}
 \description{
 6 samples of human plasma spiked with 3 different concentrations
@@ -14,4 +14,3 @@ object containg the integrated signal is in the \code{plasSet} object
 information on the samples is in \code{plasSamples} and informations
 about molecules is in \code{plasMols}.
 }
-

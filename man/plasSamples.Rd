@@ -3,22 +3,20 @@
 \docType{data}
 \name{plasSamples}
 \alias{plasSamples}
-\title{Information on the 10 samples form the plasFIA package.}
-\format{A data frame with 10 rows and 3 variables}
+\title{Information on the 6 samples form the plasFIA package.}
+\format{A data frame with 6 rows and 3 variables}
 \usage{
 data(plasSamples)
 }
 \description{
-A dataset giving name the replocate and the concentration
+A dataset giving name the replicate and the concentration
 in molecules in \code{plasMols} molecules of the files
 in the \code{plasFIA}.
 \itemize{
   \item filename. The name of the file.
   \item concentration_ng_ml. The concentration in spiked molecule in ng/ML.
-  \item classes. The chemical family of the molecules.
   \item replicate. A factor giving the molecules coming from the same sample.
   ...
 }
 }
 \keyword{datasets}
-

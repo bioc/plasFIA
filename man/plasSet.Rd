@@ -5,11 +5,11 @@
 \alias{plasSet}
 \title{Signal detected by the proFIA package in the plasFIA dataset.}
 \format{A "proFIAset" object containing  1  classes.
-Missing values have been imputed. 
-2557  peaks detected.
-629  features have been grouped.
+Data matrix has been created. 
+3529  peaks detected.
+834  features have been grouped.
 The data matrix is avalaible.
-Memory usage: 0.428 MB}
+Memory usage: 0.61 MB}
 \usage{
 data(plasSet)
 }
@@ -21,11 +21,9 @@ in the mzML files of the plasFIA datasets using the
   \item ppm. 2
   \item fracGroup. 0.2
   \item ppmgroup. 0.5
-  \item k. 2
 }
 }
 \details{
 Which were adapted to an Orbitrap Fusion.
 }
 \keyword{dataset}
-

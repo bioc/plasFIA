@@ -33,15 +33,14 @@ NULL
 #' @format A data frame with 40 rows and 5 variables
 NULL
 
-#' Information on the 10 samples form the plasFIA package.
+#' Information on the 6 samples form the plasFIA package.
 #'
-#' A dataset giving name the replocate and the concentration
+#' A dataset giving name the replicate and the concentration
 #' in molecules in \code{plasMols} molecules of the files
 #' in the \code{plasFIA}.
 #' \itemize{
 #'   \item filename. The name of the file.
 #'   \item concentration_ng_ml. The concentration in spiked molecule in ng/ML.
-#'   \item classes. The chemical family of the molecules.
 #'   \item replicate. A factor giving the molecules coming from the same sample.
 #'   ...
 #' }
@@ -50,7 +49,7 @@ NULL
 #' @usage data(plasSamples)
 #' @keywords datasets
 #' @name plasSamples
-#' @format A data frame with 10 rows and 3 variables
+#' @format A data frame with 6 rows and 3 variables
 NULL
 
 #' Signal detected by the proFIA package in the plasFIA dataset.
@@ -62,7 +61,6 @@ NULL
 #'   \item ppm. 2
 #'   \item fracGroup. 0.2
 #'   \item ppmgroup. 0.5
-#'   \item k. 2
 #' }
 #' 
 #' Which were adapted to an Orbitrap Fusion.
@@ -72,9 +70,9 @@ NULL
 #' @keywords dataset
 #' @name plasSet
 #' @format A "proFIAset" object containing  1  classes.
-#' Missing values have been imputed. 
-#' 2557  peaks detected.
-#' 629  features have been grouped.
+#' Data matrix has been created. 
+#' 3529  peaks detected.
+#' 834  features have been grouped.
 #' The data matrix is avalaible.
-#' Memory usage: 0.428 MB
+#' Memory usage: 0.61 MB
 NULL
